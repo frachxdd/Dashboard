@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>MegumiCode | Dashboard + Jadwal Sholat</title>
+  <title>MegumiCode | Dashboard</title>
   <!-- Tailwind + Chart.js -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
@@ -296,7 +296,7 @@
           <span class="online-dot"></span> 
           <span class="text-gray-200 text-[0.65rem] font-bold tracking-wider">ONLINE</span>
         </div>
-        <img src="https://ui-avatars.com/api/?name=Megumi&background=6c7a8e&color=fff&rounded=true" alt="Profile" class="w-9 h-9 rounded-full border-2 border-gray-500/40 shadow-[0_0_10px_rgba(100,110,130,0.3)] object-cover hover:scale-105 transition-transform cursor-pointer">
+        <img src="pp.jpg&background=6c7a8e&color=fff&rounded=true" alt="Profile" class="w-9 h-9 rounded-full border-2 border-gray-500/40 shadow-[0_0_10px_rgba(100,110,130,0.3)] object-cover hover:scale-105 transition-transform cursor-pointer">
       </div>
     </div>
   
@@ -304,7 +304,7 @@
     <div class="grid grid-cols-2 gap-2.5">
       <div class="clean-card p-3.5 flex flex-col">
         <span class="card-label flex items-center gap-1.5 text-[0.65rem]"><i class="fas fa-server text-[0.6rem]"></i>Server Uptime</span>
-        <h2 id="uptime" class="card-value text-[1.4rem] mt-0.5 font-bold tracking-wider">0d 0h 0m</h2>
+        <h2 id="uptime" class="card-value text-[1.4rem] mt-0.5 font-bold tracking-wider">1d 22h 0m</h2>
         <div class="flex items-center gap-1 mt-1.5 text-[0.6rem] text-gray-300/80 font-bold">
           <i class="fas fa-arrow-up text-emerald-400 text-[7px]"></i> <span>100% Online</span>
         </div>
@@ -425,8 +425,8 @@
     </div>
   
     <!-- Footer -->
-    <div class="flex justify-between items-center mt-4 text-[0.55rem] text-gray-400/70 px-0.5 font-bold tracking-widest">
-      <span><i class="far fa-circle-check text-gray-400/70 mr-1"></i>megumicode.my.id</span>
+    <!--<div class="flex justify-between items-center mt-4 text-[0.55rem] text-gray-400/70 px-0.5 font-bold tracking-widest">
+      <span><i class="far fa-circle-check text-gray-400/70 mr-1"></i></span>
       <span>2026|MEGUMI</span>
     </div>
   
@@ -446,9 +446,9 @@
       if (typeof VANTA !== 'undefined' && typeof THREE !== 'undefined') {
         VANTA.NET({
           el: "#vanta-bg",
-          mouseControls: true,
-          touchControls: true,
-          gyroControls: false,
+          mouseControls: false,
+          touchControls: false,
+          gyroControls: true,
           minHeight: 200,
           minWidth: 200,
           scale: 1.00,
